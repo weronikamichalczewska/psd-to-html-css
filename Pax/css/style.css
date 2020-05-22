@@ -1,0 +1,228 @@
+/*The downloaded files are free to use for personal or commercial projects, attribution is appreciated but not required.
+
+Licensing :
+
+- You are free to use the files found on Symu.co for personal or commercial projects.
+- You allowed to modify or customize the files published on Symu.co to fit your needs.
+- You are not allowed to resell, redistribute, license, or sub-license any files found on Symu.co
+- You are not allowed to link directly to the source files.
+- You are allowed to convert any of the PSD templates into HTML/CSS, Wordpress or any CMS and publish them in your website.
+- You are not allowed to claim credit or ownership for any of the files found on Symu.co
+
+If you have any additional questions that may not have been answered above, please don't hesitate to contact us at contact@symu.co
+
+File Made by Symu.co*/
+body{
+    font: 300 18px / 1.6em Roboto, Arial, sans-serif;
+    color: #7c8ca0;
+}
+
+/*Links*/
+a{
+    color: #7c8ca0;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.9;
+}
+
+/* Images */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+.btn{
+    display: inline-block;
+    padding: 24px 70px;
+    color: #0149a1;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.btn-primary{
+    background-color: #ff2d55;
+    color: #fff;
+}
+
+.btn-default{
+
+}
+/* Grid */
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Page Header*/
+.page-header{
+    padding: 25px 0;
+    border-bottom: 1px solid #e4e6ea;
+}
+
+.page-header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand, .brand img{
+    display: block;
+}
+
+/*Menu*/
+.menu-items{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items li {
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.menu-items li a{
+    padding: 16px 25px;
+    display: inline-block;
+    color: #5d6981;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+.menu-items .active{
+    border-radius: 36px;
+    border: 1px solid #9fabba;
+}
+
+/* Menu icon */
+.menu-items .menu-icon{
+    margin: 0 8px;
+}
+
+.menu-items .menu-icon a{
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 46px;
+    padding:0;
+}
+
+.facebook-icon{
+    background-image: url('../img/facebook-icon.png');
+}
+
+.twitter-icon{
+    background-image: url('../img/twitter-icon.png');
+}
+
+/* Page section */
+.page-section{
+    background-color: #fff linear-gradient(to top, #edeff1 0%, #edeff1 1%, #ffffff 24%, #e2e4e8 31%, #ffffff 100%);
+}
+
+/* Intro section */
+.intro-section{
+    padding-bottom: 130px;
+    padding-top: 135px;
+}
+
+/* Section header */
+.section-header{
+    text-align: center;
+}
+
+.section-header h2{
+    color: #0149a1;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section-header p{
+    color: #5d6981;
+    font-size: 36px;
+    line-height: 1.3em;
+    font-weight: 300;
+    margin: 28px 0 0;
+}
+
+/* Intro CTA */
+.intro-cta {
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 115px;
+}
+
+/* Intro video */
+.intro-video{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../img/chat.png') no-repeat left 55px, url('../img/light-bulb.png') no-repeat right 55px;
+}
+
+/* Intro video image */
+.intro-video-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1094px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro-video-image .btn{
+    position: absolute;
+    margin-top: -50px;
+}
+
+/* Feature boxes */
+.feature-boxes{
+
+}
+
+.feature-boxes > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-box{
+    flex-basis: 23%;
+    text-align: center;
+}
+
+.feature-box img{
+    margin-bottom: 55px;
+}
+
+.feature-box h3{
+    margin: 0 0 25px;
+    color: #5d6981;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+.feature-box p{
+    margin: 0;
+}
+
+/* Footer */
+.page-footer{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.page-footer p{
+    margin: 0;
+}
